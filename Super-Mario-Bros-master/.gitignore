@@ -1,0 +1,12 @@
+/bin/
+
+/target/
+/.gradle/
+/build/
+/.m2/
+
+.classpath
+*.project
+.idea
+/out/
+src/META-INF/MANIFEST.MF

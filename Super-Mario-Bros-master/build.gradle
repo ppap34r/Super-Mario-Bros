@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group = 'edu.itcs386'
+version = '1.0.0-SNAPSHOT'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.13.1'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
